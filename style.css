@@ -15,6 +15,7 @@
         margin-bottom: 0;
         border-radius: 55px 55px 0 0;
     }
+    
     section{
         text-align: center;
         background-color: rgb(82 83 85 / 50%);
@@ -22,28 +23,27 @@
         margin-top: 0;
         border-radius: 0 0 55px 55px;
         display: grid;
-        grid-template-columns: 33% 33% 33%;
         padding-top: 27px; 
+
     }
-    
+
     div{
         background-color: white;
         border-radius: 20px;
         padding: 12px;
         margin: 20px;
-        grid-template-columns: 50% 50%
+        width: 25%;
+        
+
     }
+
     img{
-    width: 100%;
-    height: 70%;
-    border-radius: 10px;
-    }
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        }
     
     .link{
         text-decoration: none;
         color: black;
-    }
-    
-    .lado{
-        text-align: end;
     }
