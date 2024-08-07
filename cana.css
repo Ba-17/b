@@ -5,7 +5,7 @@
     }
     body{
        background-image: url(campo.jpg);
-       background-size: 100%;
+       background-size: 100% 100%;
     }
     
     header{
@@ -21,20 +21,35 @@
         margin: 4%;
         margin-top: 0;
         border-radius: 0 0 55px 55px;
-        padding-top: 27px; 
+        display: grid;
+        padding-top: 27px;
+        grid-template-columns: 50% 50%;
+
     }
     
+    div1{
+        background-color: white;
+        border-radius: 20px;
+        padding: 7px;
+        margin: 20px;
+        width: 66%;
+        height: 38%;
+        margin-left: 28%;
+
+    }
+
     div{
         background-color: white;
         border-radius: 20px;
-        padding: 12px;
+        padding: 7px;;
         margin: 20px;
-        grid-template-columns: 50% 50%
+        height: 219px;
+        width: 205px;
     }
-    
+
     img{
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     }
     
@@ -42,18 +57,13 @@
         text-decoration: none;
         color: black;
     }
-    
-    .lado{
-        text-align: end;
+
+    .video{
+        border-radius: 20px;
+        width: 100%;
+        height: 102%;
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
     @media screen and (min-width:700px){
         body{
             background-size: 100% 100%;
@@ -61,10 +71,17 @@
     
          section{
             display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 70% 30%;
          }
     
-         img{
+         div{ 
+            padding: 12px;
             width: 100%;
+            height: 50%;
+           
          }
-    }
+         div{
+            height: 500px;
+            margin-left: 3%;
+         }
+        }
